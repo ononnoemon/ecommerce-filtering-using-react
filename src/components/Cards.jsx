@@ -13,7 +13,7 @@ export default function Cards({data}) {
                 <div key={item.id} className="card">
                     <img src={item.img} alt="" />
                     <h1>{item.title}</h1>
-                    <h2>{item.price}</h2>
+                    <h3>Price: {item.price} TK</h3>
                  </div>
             ))
         }
